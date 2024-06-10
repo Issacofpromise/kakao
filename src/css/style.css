@@ -1,0 +1,20 @@
+*{margin: 0;padding: 0;}
+html,body{height: 100%;}
+.wrap{height: 100%;width: 100%;display: flex;flex-direction: column;
+overflow: hidden;}
+.user{background: #a9bdce;flex: 1;display: flex;padding: 0.5rem;align-items: center;}
+.dp{flex: 12;background: #b2c7d9;overflow-y: scroll;}
+.user input{border-radius: 3px;border: none;height: 80%;padding-left: 7px;}
+.in span{display: flex;width: 100%;align-items: center;}
+.in{flex: 1;display: flex;align-items: stretch;justify-content: stretch;}
+.chatting{height: 100%;flex: 9;border: none;padding-left: 10px;}
+.send{width: auto;padding: 1rem;background: #ffeb33;border: none;height: 100%;border-radius: 3px;}
+.chat-list li{width: 90%; display: flex;padding: 0.3rem; align-items: flex-end;}
+.pro{display: flex;flex-direction: column;align-items: center;}
+.pro img{border-radius: 50%;object-fit: cover;width: 40px;height: 40px;}
+.pro .cli{margin-bottom: 0.3rem;}
+.mg{width: auto;font-size: 12px;padding: 0.5rem;border-radius: 5px;margin: 7px;}
+.sent .mg{background: #ffeb33;}
+.received .mg{background: #fcfcfb;}
+.time{font-size: 10px;margin-bottom: 8px;}
+.sent{flex-direction: row-reverse;float: right;}
